@@ -104,16 +104,16 @@ function myFunctionImg5() {
     window.alert(checkFamous(place_value, fam));
 }
 
-
 function myFunctionImg6() {
     var fam = document.getElementById("myImgBtn6").value;
-    console.log(checkFamous(place_value, fam));
-} 
+    window.alert(checkFamous(place_value, fam));
+}
 
 function myFunctionImg7() {
     var fam = document.getElementById("myImgBtn7").value;
-    console.log(checkFamous(place_value, fam));
+    window.alert(checkFamous(place_value, fam));
 }
+
 
 function myFunctionImg8() {
     var fam = document.getElementById("myImgBtn8").value;

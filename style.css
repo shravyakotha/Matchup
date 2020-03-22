@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+body{
+  background-image : url(./famous/template.png);
+  background-repeat : no-repeat;
+  background-size: 1500px 500px;
+}
+#strt{
+    display:flex;
+    justify-content :space-around;
+  
+}
+
+#btns{
+    display : flex;
+    flex-direction :column;
+    justify-content: space-around;
+}
+
+
+.roww{
+display:grid;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+grid-row-gap : 10px;
+grid-column-gap :10px;
+
+}
+
+img{
+    border-radius :30%;
+    
+}
+
+.img_space{
+    margin : 10px;
+}
+
+.button {
+    position: relative;
+    background-color: crimson;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: 'Courgette', cursive;
+  }
+  
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  .imgBtn {
+    position: relative;
+    background-color:lightseagreen;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding : 10px;
+    width: 150px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 30%;
+  }
+  
+  .imgBtn:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .imgBtn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+

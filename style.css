@@ -36,6 +36,7 @@ img{
     margin : 10px;
 }
 
+/*---referred from w3schools---*/
 .button {
     position: relative;
     background-color: crimson;
@@ -107,5 +108,7 @@ img{
     opacity: 1;
     transition: 0s
   }
+
+  /*-----------------------*/
 
 

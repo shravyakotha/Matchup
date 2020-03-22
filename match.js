@@ -5,6 +5,8 @@
     ["adiyogishivastatue", "golconda", "costume", "tajhotel", "houseboat"],
     ["tamil", "telugu", "rajasthani", "marati", "malayalam"]
 ]*/
+
+/*-----------own code-----------*/
 var famous = [
     ["10","20","30" , "40" , "50"],
     ["60" , "70" ,"80" ,"90" ,"100"],
@@ -15,39 +17,7 @@ var famous = [
 
 //var state = ["tamilnadu", "telengana", "rajasthan", "maharashtra"];
 
-// var tamilNadu = {
-//     food: "Idli_Dosa",
-//     beach: "Marina",
-//     place: "Adiyogi_shiva_statue",
-//     team: "Chenni_super_kings",
-//     language: "Tamil"
-// }
 
-
-// var telangana = {
-//     food: "Biryani",
-//     place1: "Charminar",
-//     place2: "Golconda",
-//     team: "Sunrisers_hyd",
-//     language: "Telugu"
-// }
-
-
-// var rajasthan = {
-//     lace1: "Camel_Safari",
-//     place2: "hawa_mahal",
-//     shopping: "Jewellary",
-//     place3: "Jantar_mantar",
-//     "language": "Rajasthani"
-// }
-
-// var maharashtra = {
-//     Cricket_team: "Mumbai Indians",
-//     place1: "Gateway_of_india",
-//     food: "av_bhaji",
-//     place2: "Marine_drive",
-//     language: "Marati"
-// }
 
 /*var place = window.prompt("Enter the place");
 var fame = window.prompt("Enter the famous thing");
@@ -256,7 +226,7 @@ function checkFamous(place_value, fam) {
 
 
 
-
+/* -------------*/
 
 
 

@@ -39,8 +39,8 @@ img{
 /*---referred from w3schools---*/
 .button {
     position: relative;
-    background-color: crimson;
-    border: none;
+    background-color: mediumblue;
+    border : none;
     font-size: 28px;
     color: #FFFFFF;
     padding: 10px;
@@ -75,7 +75,7 @@ img{
 
   .imgBtn {
     position: relative;
-    background-color:lightseagreen;
+    background-color:mediumturquoise;
     border: none;
     font-size: 28px;
     color: #FFFFFF;
@@ -88,6 +88,9 @@ img{
     cursor: pointer;
     border-radius: 30%;
   }
+
+  
+  
   
   .imgBtn:after {
     content: "";
@@ -111,4 +114,26 @@ img{
 
   /*-----------------------*/
 
+  #timer{
+    display  : flex;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 1px;
+    
+}
 
+  h2{
+    font-size: 31px;
+    color :darkorchid;
+  }
+
+  #time{
+    font-size: 2em;
+    border:crimson 2px solid;
+    color: crimson;
+    border-radius: 35px;
+    width: 150px;
+    padding:0 10px;
+    margin-top : 20px;
+}
+  
